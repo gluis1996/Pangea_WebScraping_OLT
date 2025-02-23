@@ -3,7 +3,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from tkinter import messagebox
 import time
-def iniciar_sesion_zte(driver, usuario, password, root):
+def iniciar_sesion_zte(driver, usuario, password):
     try:
         # Ingresar usuario
         user_input = WebDriverWait(driver, 15).until(
